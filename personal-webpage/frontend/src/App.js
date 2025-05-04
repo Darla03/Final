@@ -7,6 +7,8 @@ import SkillsEducation from './components/Education';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 
+
+//this helps routes the navbar to its pages 
 function App() {
   return (
     <Router>

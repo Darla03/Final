@@ -1,5 +1,6 @@
 import React from 'react';
 
+//this will be used to create the topics for my education 
 const educationList = [
   {
     institution: "Hope High School, Hope, Arkansas",
@@ -26,7 +27,7 @@ const educationList = [
     description: "Focused on Python and HTML"
   }
 ];
-
+//this will be used to add my skills on top of images 
 const skillsList = [
   {
     name: "JavaScript",
@@ -59,7 +60,7 @@ const skillsList = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
   }
 ];
-
+//this reads the items above and allows for it to have clean look and be joined together .
 function SkillsEducation() {
   return (
     <div className="p-6 space-y-12 bg-gray-100 min-h-screen">
@@ -97,7 +98,7 @@ function SkillsEducation() {
 
 export default SkillsEducation;
 
-
+//this was the code that was going to be used for MongoDB but could not connect. 
 /* function SkillsEducation() {
   const [skills, setSkills] = useState([]);
   const [education, setEducation] = useState([]);

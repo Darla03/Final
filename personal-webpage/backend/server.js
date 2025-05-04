@@ -17,7 +17,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/blogDB', {
   .then(() => console.log("MongoDB Connected"))
   .catch((err) => console.error("MongoDB error", err));
 
-// Define Schemas
+// Define Schemas of all pages or topics 
 const projectSchema = new mongoose.Schema({
   title: String,
   description: String,
@@ -51,7 +51,7 @@ const Education = mongoose.model("Education", educationSchema);
 const Skill = mongoose.model("Skill", skillSchema);
 const ContactMessage = mongoose.model("ContactMessage", contactFormSchema);
 
-// Routes for Projects, Education, Skills
+// Routes for Projects, Education, Skills, and contact 
 app.get('/projects', async (req, res) => {
   try {
     const projects = await Project.find();

@@ -28,7 +28,7 @@ function Contact() {
   rel="noopener noreferrer"
   className="flex items-center justify-center text-offwhite bg-softblue px-4 py-2 rounded-full hover:bg-navy transition"
 >
-  <FaEnvelope className="mr-2" />
+  <FaEnvelope className="mr-2" /> 
  Email
 </a>
 

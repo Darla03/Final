@@ -6,7 +6,7 @@ const NavBar = () => {
     isActive
       ? 'inline-block border border-steel rounded py-1 px-3 bg-steel text-offwhite'
       : 'inline-block border border-offwhite rounded hover:border-softblue text-steel hover:bg-softblue py-1 px-3';
-  
+  //just a simple pill link nav bar is what its called 
   return (
     <nav className="bg-white py-4 shadow-md">
       <div className="max-w-7xl mx-auto px-4">
